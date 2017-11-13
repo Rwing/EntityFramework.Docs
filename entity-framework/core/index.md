@@ -18,7 +18,7 @@ uid: core/index
 
 Entity Framework (EF) Core is a lightweight, extensible, and cross-platform version of the popular Entity Framework data access technology.
 
-Entity Framework (EF) Core 是倍受欢迎的数据访问技术 Entity Framework 的轻量级、可扩展的以及跨平台的版本。
+Entity Framework (EF) Core 是倍受欢迎的数据访问技术 Entity Framework 的轻量级、可扩展的以及跨平台的版本。
 
 EF Core is an object-relational mapper (O/RM) that enables .NET developers to work with a database using .NET objects. It eliminates the need for most of the data-access code that developers usually need to write. EF Core supports many database engines, see [Database Providers](providers/index.md) for details.
 
@@ -46,7 +46,7 @@ If you are familiar with EF Core and want to jump straight into the details of t
 
 [Install the NuGet package](https://docs.nuget.org/ndocs/quickstart/use-a-package) for the database provider you want to use. E.g. to install the SQL Server provider in cross-platform development using `dotnet` tool in the command line:
 
-你可以在 NuGet 中安装你选择的数据库提供者。例如，若想安装跨平台的 SQL Server 提供程序，可以在命令行中这样使用 `dotnet` 命令：
+你可以在 NuGet 中安装你选择的数据库提供者。例如，若想安装跨平台的 SQL Server 提供程序，可以在命令行中这样使用 `dotnet` 命令：
 
 ``` console
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
